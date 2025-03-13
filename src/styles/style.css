@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans";
+    color: #002c55;
+}
+
+
+.wrapper {
+    background: url("../assets/images/bg_body.gif") center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_container {
+    display: flex;
+}
+
+.content_box_1 {
+    background: url("../assets/images/bg_1.png") center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 800px;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.title_image {
+    width: 440px;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.display_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.display_container > p {
+    margin-top: 20px;
+    font-size: 9rem;
+    margin-left: -11px;
+    color: white;
+}
+
+.btn_container {
+    margin-top: 80px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.again_btn,
+.check_btn {
+    width: 180px;
+    height: 75px;
+    border: none;
+}
+
+.again_btn:hover,
+.check_btn:hover {
+    transform: scale(1.07);
+}
+
+.again_btn:active,
+.check_btn:active {
+    transform: scale(1);
+}
+
+.again_btn {
+    background: url("../assets/images/again.png") center / cover;
+}
+
+.check_btn {
+    background: url("../assets/images/check.png") center / cover;
+}
+
+.my_num {
+    background: url("../assets/images/input.png") center / cover;
+    width: 90px;
+    height: 127px;
+    margin: 0 10px;
+    border: none;
+    padding-left: 35px;
+    font-size: 3rem;
+    outline: none;
+}
+
+.content_box_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../assets/images/bg_2.png") center / cover;
+    height: 380px;
+    width: 355px;
+}
+
+.content_box_2 > p {
+    font-size: 2rem;
+    margin-left: 110px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.content_box_3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.3rem;
+    background: url("../assets/images/p_1.png") center / cover;
+    height: 500px;
+    width: 350px;
+}
+
+.tip_container {
+    height: 110px;
+}
+
+.tip {
+    padding: 0 30px 0 50px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
