@@ -49,7 +49,7 @@ const textAnimation = function (text) {
 
 // mudar as expressões do piplup
 const piplupExpressions = function (piplupImg) {
-    document.querySelector('.content_box_3').style.background = `url("assets/images/${piplupImg}.png") center / cover`;
+    document.querySelector('.content_box_3').style.background = `url("src/assets/images/${piplupImg}.png") center / cover`;
 }
 
 // calcular o score
